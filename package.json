@@ -1,0 +1,22 @@
+{
+  "name": "spendr",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -ws",
+    "build": "npm run build -ws",
+    "lint": "npm run lint -ws",
+    "typecheck": "npm run typecheck -ws",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fleur0121/spendr.git"
+  }
+}
